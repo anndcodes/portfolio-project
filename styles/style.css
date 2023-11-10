@@ -117,6 +117,25 @@ h3 {
 }
 
 
+/* work page */
+
+.content-container h3 {
+  font-family: var(--default-font);
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 1.6rem 0 0.9rem 0;
+}
+
+.content-container p {
+  font-size: 1.4rem;
+}
+
+.content-container .work-heading {
+  padding-bottom: 10.3rem;
+}
+
+
+
 /* media querie */
 @media (max-width: 995px) {
 
