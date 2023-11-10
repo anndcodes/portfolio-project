@@ -99,11 +99,11 @@ h3 {
 }
 
 
-/* aboutpage  */
 .content-container  {
-  padding: 25.9rem 14rem 0 12.6rem;
+  padding: 17.7rem 14rem 0;
 }
 
+/* aboutpage  */
 .content-container  .title {
   font-size: 6.4rem;
   font-weight: 700;
@@ -131,7 +131,7 @@ h3 {
 }
 
 .content-container .work-heading {
-  padding-bottom: 10.3rem;
+  padding-bottom: 10.3rem; 
 }
 
 
