@@ -100,17 +100,17 @@ h3 {
 
 
 /* aboutpage  */
-.about-header {
+.content-container  {
   padding: 25.9rem 14rem 0 12.6rem;
 }
 
-.about-header .title {
+.content-container  .title {
   font-size: 6.4rem;
   font-weight: 700;
   line-height: normal;
 }
 
-.about-header .subtitle {
+.content-container .subtitle {
   font-size: 1.8rem;
   font-family: var(--default-font);
   font-weight: 700;
@@ -155,12 +155,12 @@ h3 {
 
   /* about page*/
 
-  .about-header {
+  .content-container {
     text-align: center;
     padding: 3rem 1rem;
   }
 
-  .about-header .title {
+  .content-container .title {
     font-size: 5.5rem;
   }
 
