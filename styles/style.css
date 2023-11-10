@@ -27,12 +27,54 @@ h3 {
   color: #000;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* navigation bar */
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  /* padding: 4rem 0 0; */
+  padding-block: 4rem 17.7rem;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--default-font);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-left: 25px; 
+}
+
+nav > ul > li a {
+  color: var(--text-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav ul > li a:hover,
+nav > ul > li a.active {
+  color: var(--primary-color);
+}
+
+
 /* home page header */
+.header-wrapper {
+  background: var(--secondary-color);
+}
 
 .hero {
-  background: var(--secondary-color);
   text-align: center;
-  padding: 27.6rem 0 27.1rem;
+  /* padding: 27.6rem 0 27.1rem; */
+  padding-bottom: 27.1rem;
 }
 
 .hero p {
@@ -100,7 +142,8 @@ h3 {
 
 
 .content-container  {
-  padding: 17.7rem 14rem 0;
+  /* padding: 17.7rem 14rem 0; */
+  padding-inline: 14rem;
 }
 
 /* aboutpage  */
@@ -138,6 +181,7 @@ h3 {
 
 /* media querie */
 @media (max-width: 995px) {
+
 
   /* homepage */
   .hero {
