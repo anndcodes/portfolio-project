@@ -65,60 +65,6 @@ nav > ul > li a.active {
   color: var(--primary-color);
 }
 
-/* footer section */
-
-footer {
-  margin-block: 13.2rem;
-}
-
-footer .email-link {
-  font-family: var(--default-font);
-  font-size: 2.4rem;
-  font-weight: 500;
-  color: #000;
-}
-
-footer .email-link:hover {
-  color: var(--primary-color);
-}
-
-footer .social-links {
-  margin-top: 4.1rem;
-}
-
-footer .social-links i {
-  margin-inline: 2rem;
-  padding: 1.5rem;
-  font-size: 1.8rem;
-  border-radius: 50%;
-  color: var(--primary-color);
-  background: var(--secondary-color);
-  transition: all 100ms ease-in-out;
-}
-
-footer .social-links i:hover {
-  color: #fff;
-  background: var(--primary-color);
-}
-
-footer .cta {
-  background: var(--secondary-color);
-  padding: 4.9rem 11.6rem;
-  border-radius: 20px;
-  margin-bottom: 8.1rem;
-}
-
-footer .cta h3 {
-  font-family: var(--heading-font);
-  font-size: 4.8rem;
-  font-weight: 700;
-}
-
-footer .cta p,
-footer .cta a {
-  font-size: 1.8rem;
-  margin: 0;
-}
 
 /* home page header */
 .header-wrapper {
@@ -229,6 +175,69 @@ footer .cta a {
   padding-bottom: 10.3rem;
 }
 
+
+/* footer section */
+footer {
+  margin-block: 13.2rem;
+}
+
+footer .email-link {
+  font-family: var(--default-font);
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #000;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links {
+  margin-top: 4.1rem;
+}
+
+footer .social-links i {
+  margin-inline: 2rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links i:hover {
+  color: #fff;
+  background: var(--primary-color);
+}
+
+footer .cta {
+  background: var(--secondary-color);
+  padding: 4.9rem 11.6rem;
+  border-radius: 20px;
+  margin-bottom: 8.1rem;
+}
+
+footer .cta h3 {
+  font-family: var(--heading-font);
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+footer .cta p,
+footer .cta a {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+footer .github-repo {
+  font-size: 1.6rem;
+}
+
+footer .github-repo a {
+  color: var(--primary-color);
+}
+
 /* media querie */
 @media (max-width: 995px) {
   /* homepage */
@@ -278,5 +287,9 @@ footer .cta a {
 
   footer .email-link {
     font-size: 2.2rem;
+  }
+
+  footer .github-repo a {
+    padding-inline: 3rem;
   }
 }
