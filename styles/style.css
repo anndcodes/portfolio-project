@@ -32,13 +32,22 @@ a {
   transition: all 100ms ease-in-out;
 }
 
+.btn-branding:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-branding-outline:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
 /* navigation bar */
 .logo {
   max-height: 40px;
 }
 
 nav {
-  /* padding: 4rem 0 0; */
   padding-block: 4rem 17.7rem;
 }
 
@@ -73,7 +82,6 @@ nav > ul > li a.active {
 
 .hero {
   text-align: center;
-  /* padding: 27.6rem 0 27.1rem; */
   padding-bottom: 27.1rem;
 }
 
@@ -111,7 +119,6 @@ nav > ul > li a.active {
 }
 
 /* homepage main */
-
 .row {
   margin-bottom: 70px;
 }
@@ -141,11 +148,10 @@ nav > ul > li a.active {
 }
 
 .content-container {
-  /* padding: 17.7rem 14rem 0; */
   padding-inline: 14rem;
 }
 
-/* aboutpage  */
+/* about page  */
 .content-container .title {
   font-size: 6.4rem;
   font-weight: 700;
@@ -159,7 +165,6 @@ nav > ul > li a.active {
 }
 
 /* work page */
-
 .content-container h3 {
   font-family: var(--default-font);
   font-size: 2.4rem;
@@ -171,7 +176,8 @@ nav > ul > li a.active {
   font-size: 1.4rem;
 }
 
-.content-container .work-heading {
+.content-container .work-heading,
+.content-container .contact-heading {
   padding-bottom: 10.3rem;
 }
 
@@ -240,9 +246,15 @@ footer .github-repo a {
 
 /* media querie */
 @media (max-width: 995px) {
+  /* navbar */
+  nav {
+    padding-bottom: 7rem;
+  }
+
   /* homepage */
   .hero {
-    padding: 9.6rem 0 9.1rem;
+    padding: 0;
+    padding-bottom: 4rem;
   }
 
   .hero .title {
@@ -273,14 +285,18 @@ footer .github-repo a {
   }
 
   /* about page*/
-
   .content-container {
     text-align: center;
     padding: 3rem 1rem;
   }
 
   .content-container .title {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
+  }
+
+  /* contact page */
+  .content-container .contact-heading {
+    padding-bottom: 0rem;
   }
 
   /* footer */
